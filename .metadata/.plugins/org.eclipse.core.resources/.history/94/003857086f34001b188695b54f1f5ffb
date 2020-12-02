@@ -1,0 +1,66 @@
+package com.db1.incident.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import javax.persistence.UniqueConstraint;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
+
+@Entity
+@Table(name = "D_APPLICATION_HEALTH", uniqueConstraints = {
+        @UniqueConstraint(columnNames = {
+            "APPLICATION_HEALTH_ID"
+        })
+})
+
+public class Applications {
+
+	private Long D_APPLICATION_HEALTH;
+	
+	@NotBlank
+    @Size(max = 45)
+    private String appName;
+	
+    @Size(max = 45)
+    private String subAppName;
+    
+    public Applications() {
+
+    }
+    
+	public Applications(Long id, String appName, String subAppName) {
+		super();
+		this.D_APPLICATION_HEALTH = id;
+		this.appName = appName;
+		this.subAppName = subAppName;
+	}
+
+	public Long getId() {
+		return D_APPLICATION_HEALTH;
+	}
+
+	public String getAppName() {
+		return appName;
+	}
+
+	public String getSubAppName() {
+		return subAppName;
+	}
+
+	public void setId(Long id) {
+		this.D_APPLICATION_HEALTH = id;
+	}
+
+	public void setAppName(String appName) {
+		this.appName = appName;
+	}
+
+	public void setSubAppName(String subAppName) {
+		this.subAppName = subAppName;
+	}
+	
+	
+	
+    
+}

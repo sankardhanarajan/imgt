@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="com.db1.incident.repository.UserRepository"/>
+    <fullyQualifiedTypeName name="com.db1.incident.repository.AppRepository"/>
+    <fullyQualifiedTypeName name="com.db1.incident.security.CurrentUser"/>
+    <fullyQualifiedTypeName name="com.db1.incident.security.UserPrincipal"/>
+    <fullyQualifiedTypeName name="com.db1.incident.model.Applications"/>
+    <fullyQualifiedTypeName name="com.db1.incident.payload.PagedResponse"/>
+    <fullyQualifiedTypeName name="com.db1.incident.payload.AppResponse"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="javax.persistence.Column"/>
+</qualifiedTypeNameHistroy>
